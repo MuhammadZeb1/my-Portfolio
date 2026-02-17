@@ -4,7 +4,7 @@ import { FaCode, FaRocket, FaLightbulb } from "react-icons/fa";
 export default function About() {
   const stats = [
     { label: "Experience", value: "6+ months", icon: <FaCode className="text-blue-500" /> },
-    { label: "Projects", value: "15+ Completed", icon: <FaRocket className="text-purple-500" /> },
+    { label: "Projects", value: "4+ Completed", icon: <FaRocket className="text-purple-500" /> },
     { label: "Focus", value: "MERN Stack", icon: <FaLightbulb className="text-yellow-500" /> },
   ];
 
