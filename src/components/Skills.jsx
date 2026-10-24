@@ -1,16 +1,29 @@
 import { motion } from "framer-motion";
-import { 
-  FaReact, FaNodeJs, FaJsSquare, FaGitAlt, FaDatabase 
+import {
+  FaReact, FaNodeJs, FaJsSquare, FaGitAlt, FaDatabase,
 } from "react-icons/fa";
-import { SiMongodb, SiTailwindcss, SiExpress, SiStripe } from "react-icons/si";
+import {
+  SiMongodb,
+  SiTailwindcss,
+  SiExpress,
+  SiStripe,
+  SiTypescript,
+  SiNextdotjs,
+  SiMysql,
+  SiOpenai,
+} from "react-icons/si";
 
 const skillList = [
   { name: "React", icon: <FaReact className="text-blue-400" /> },
+  { name: "Next.js", icon: <SiNextdotjs className="text-white" /> },
+  { name: "TypeScript", icon: <SiTypescript className="text-blue-500" /> },
   { name: "Node.js", icon: <FaNodeJs className="text-green-500" /> },
+  { name: "SQL", icon: <SiMysql className="text-blue-600" /> },
   { name: "MongoDB", icon: <SiMongodb className="text-green-600" /> },
   { name: "Tailwind", icon: <SiTailwindcss className="text-cyan-400" /> },
   { name: "JavaScript", icon: <FaJsSquare className="text-yellow-400" /> },
   { name: "Express", icon: <SiExpress className="text-gray-300" /> },
+  { name: "AI Integration", icon: <SiOpenai className="text-green-400" /> },
   { name: "Git", icon: <FaGitAlt className="text-orange-500" /> },
   { name: "Stripe", icon: <SiStripe className="text-indigo-500" /> },
 ];

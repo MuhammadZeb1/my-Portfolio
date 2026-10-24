@@ -1,51 +1,54 @@
-import React, { useState } from 'react'
+import React, { useState } from "react";
 
 function Props() {
-  const [toogel, settoogle]= useState(false)
-  const [select,setselect]= useState(null)
 
-  const info = [
-    {name:"ali", fathername:"aur"},
-    {name:"alj", fathername:"a"},
-    {name:"ali", fathername:"ajzshdur"},
-  ]
-  // const [show, setshow] = useState(false)
+  const [selected, setselected] = useState(null);
+  const data = [
+    {
+        
+      place: "peshwar",
+      dec: "the peshawer also know is the city of flower",
+    },
+    {
+      id:2,
+      place: "lahore",
+      dec: "the peshawer also know is the city of flower",
+    },
+    {
+      id:3,
+      place: "karachi",
+      dec: "the peshawer also know is the city of flower",
+    },
+  ];
 
-  const handle = (index)=>{
-    settoogle(!toogel)
-    setselect(select === index ? null:index)
-    console.log(toogel)
+  const handle=(id)=>{
+    setselected(HANIAZEB
+      
+    );
+    console.log(selected)
   }
-      
-  return (
-    <>
-    
-    <div className='h-screen flex justify-center align-middle items-center border border-blue-400'>
-      <ul className=' flex flex-col text-center w-[30%] justify- align-middle items-center border border-blue-400'>
-      {
-      info.map((person, index)=>(
+  return <div>
+   <h1>the show the city information </h1>
+
+   {
+    data && data.map((item)=>(
+      <>
+     <div>
+       <span onClick={()=>handle(item.id)}>{item.place}</span>
+      <span>+</span>
+     </div>
+     {
+      selected === item.id ? (
         <>
-       <div className='flex gap-3.5'>
-         <li>{person.name}</li>
-        <button
-        onClick={(e)=> handle(index)}
-        className='bg-amber-400 rounded-xs w-[50px]'>{select === index ?"hide":"show"}</button>
-        {
-          toogel && (
-            <>
-            {person.fathername}
-            </>
-          )
-        }
-       </div>
+        <div>{item.dec}</div>
         </>
-      ))
-    }
-    </ul>
-    </div>
-    </>
-      
-  )
+      ):null
+     }
+      </>
+    ))
+   }
+
+  </div>;
 }
 
-export default Props
+export default Props;

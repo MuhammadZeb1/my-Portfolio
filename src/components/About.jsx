@@ -3,7 +3,7 @@ import { FaCode, FaRocket, FaLightbulb } from "react-icons/fa";
 
 export default function About() {
   const stats = [
-    { label: "Experience", value: "6+ months", icon: <FaCode className="text-blue-500" /> },
+    { label: "Experience", value: "1+ Year", icon: <FaCode className="text-blue-500" /> },
     { label: "Projects", value: "4+ Completed", icon: <FaRocket className="text-purple-500" /> },
     { label: "Focus", value: "MERN Stack", icon: <FaLightbulb className="text-yellow-500" /> },
   ];
@@ -52,14 +52,13 @@ export default function About() {
 
           <div className="space-y-4 text-gray-400 text-lg leading-relaxed">
             <p>
-              Hi, I'm <span className="text-white font-medium">Muhammad Zeb</span>. I specialize in building 
-              high-performance full-stack applications that don't just work—they provide 
-              exceptional user experiences.
+              Hi, I'm <span className="text-white font-medium">Muhammad Zeb</span>, a full-stack developer and digital product leader focused on building modern, scalable software for businesses and startups.
             </p>
             <p>
-              With a deep focus on the <span className="text-white">MERN Stack</span>, I bridge the gap between 
-              robust backend logic and sleek, interactive frontends. My goal is always clean, 
-              scalable code and pixel-perfect design.
+              I design and develop end-to-end web platforms using <span className="text-white">TypeScript, Next.js, React, Node.js, SQL, MongoDB</span>, and AI-powered integrations to create fast, reliable, and user-first digital experiences.
+            </p>
+            <p>
+              As the <span className="text-white">CEO of Koyzom</span>, I oversee end-to-end digital execution for the company and its projects, contributing to the growth of the brand and delivering solutions showcased on <span className="text-blue-400">koyzom.com</span>.
             </p>
           </div>
 

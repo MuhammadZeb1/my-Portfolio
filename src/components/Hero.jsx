@@ -36,13 +36,13 @@ export default function Hero() {
 
       {/* Subheading with Staggered Text */}
       <motion.p
-        className="text-lg md:text-2xl text-gray-400 max-w-2xl mb-10 leading-relaxed"
+        className="text-lg md:text-2xl text-gray-400 max-w-3xl mb-10 leading-relaxed"
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ duration: 1, delay: 0.5 }}
       >
-        Crafting seamless <span className="text-blue-500 font-mono">Full-Stack</span> experiences with the MERN ecosystem. 
-        Turning complex problems into elegant, scalable code.
+        Full-Stack Developer and product strategist building <span className="text-blue-500 font-mono">AI-powered</span>, scalable web experiences with TypeScript, Next.js, SQL, and modern cloud architecture.
+        I also lead digital product delivery at <span className="text-white font-medium">Koyzom</span>, transforming business ideas into polished, high-impact solutions.
       </motion.p>
 
       {/* Advanced Call to Action Buttons */}
